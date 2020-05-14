@@ -1,0 +1,214 @@
+<section id="home" class="home-page-content page-content">
+    <section class="homepage-slider">
+		<!--START: home_carousel-->
+		<div class="homeCarousel flexslider" data-animation="[hc_effect]" data-slideshowspeed="[hc_delay]">
+			<ul class="slides">
+				<!--START: carousel-->
+				<li><a href="[link]"><img src="[image]" alt="" /></a></li>
+				<!--END: carousel-->
+			</ul>
+		</div>
+		<!--END: home_carousel-->
+    </section>
+
+    <!--START: CATEGORY_HEADER-->
+    <section class="category-header content-section">
+        <div class="container">
+            <div class="content tc-pagebuilder">[CONTENT]</div>
+        </div>
+    </section>
+    <!--END: CATEGORY_HEADER-->
+
+	<!--START: FEATURE_MENU-->
+    <section class="products-section">
+        <div class="container">
+            
+            <h2 class="header-specials"><span>[category_Header-specials]</span></h2>
+
+			<div class="product-carousel flexslider">
+				<!--START: CATEGORY_ITEMS-->
+				<ul class="product-items slides" data-productcols="[product-cols-number]" >
+					<!--START: ITEM_TEMPLATE_0-->
+					<li>
+					[product_items]
+					</li>
+					<!--END: ITEM_TEMPLATE_0-->
+				</ul>
+				<!--END: CATEGORY_ITEMS-->
+			</div>
+            
+        </div>
+    </section>
+	<!--END: FEATURE_MENU-->
+
+	<!--START: TOP_SELLERS_BLOCK-->
+	<div id="modTopSellers" class="products-section">
+		<div class="container">
+			<h2 class="header-specials"><span>[frame_top-sellers]</span></h2>
+
+			<div class="product-carousel flexslider">
+				<ul class="product-items slides" data-productcols="[product-cols-number]" >
+					<!--START: topsellers-->
+					<!--START: topsellers_topitem-->
+					<li>
+						[product_items]
+					</li>
+					<!--END: topsellers_topitem-->
+
+					<!--START: topsellers_item-->
+					<li>
+						[product_items]
+					</li>
+					<!--END: topsellers_item-->
+					<!--END: topsellers-->
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--END: TOP_SELLERS_BLOCK--> 
+
+	<!--START: NEW_RELEASES_BLOCK-->
+	<div id="modNewReleases" class="products-section">
+		<div class="container">
+			<h2 class="header-specials"><span>[frame_new-releases]</span></h2>
+
+			<div class="product-carousel flexslider">
+				<ul class="product-items slides" data-productcols="[product-cols-number]" >
+					<!--START: newreleases-->
+					<!--START: newreleases_topitem-->
+					<li>
+						[product_items]
+					</li>
+					<!--END: newreleases_topitem-->
+
+					<!--START: newreleases_item-->
+					<li>
+						[product_items]
+					</li>
+					<!--END: newreleases_item-->
+					<!--END: newreleases-->
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--END: NEW_RELEASES_BLOCK-->
+
+    <!--START: HOMEPAGE_BLOGS-->
+	<div class="homepage-blog-posts products-section">
+		<div class="container">
+            <h2 class="header-specials"><span>[blog_recentposts]</span></h2>
+			<ul class="blogList clearfix">
+				<!--START: blog_post-->
+				<li class="blogPost [blog_class]">
+					<!--START: post_image-->
+					<div class="post-image">
+						<div class="post-image-container">
+							<a href="[pagename]" title="[subject]">  
+								<img src="[post_image]" alt="[subject]" class="img-responsive" />
+							</a>
+						</div>
+					</div>			            
+					<!--END: post_image-->
+					<div class="post-content">
+						<!--START: post_title-->
+						<h3><a href="[pagename]" title="[subject]">[subject]</a></h3>
+						<!--END: post_title-->
+
+						<div id="postContent" class="post" data-articleID="[post_id]">
+							[post]
+						</div>
+
+						<div class="post-info clearfix">
+							<div class="postDate">
+								[post_date]
+							</div>
+							<!--START: read-more-->
+							<div class="post-readmore">
+								<a href="[pagename]" title="[subject]" class="btn btn-default">[blog_read-more]</a>
+							</div>
+							<!--END: read-more-->
+						</div>
+					</div>
+				</li>
+				<!--END: blog_post-->
+			</ul>
+		</div>
+	</div>
+    <!--END: HOMEPAGE_BLOGS-->
+
+    <!--START: CATEGORY_FOOTER-->
+    <section class="category-footer content-section">
+        <div class="container">
+            <div class="content tc-pagebuilder">[CONTENT]</div>
+        </div>
+    </section>
+    <!--END: CATEGORY_FOOTER-->
+
+</section>
+
+<!--START: template_scripts-->
+<script type="text/javascript" src="/assets/templates/common-core/lib/flexslider/jquery.flexslider-min.js"></script>
+<script type="text/javascript" charset="utf-8">
+	jQuery(function () {
+		
+		// Homepage Carousel
+		jQuery('.homeCarousel').flexslider({
+            animation: jQuery('.homeCarousel').attr('data-animation'),
+			slideshow: true,
+            slideshowSpeed: jQuery('.homeCarousel').attr('data-slideshowspeed'),
+            controlNav: false,
+            keyboard: false
+        });
+		
+		// Product Scroll
+		// store the slider in a local variable
+		var $window = jQuery(window),
+			flexslider = { vars: {} };
+
+		// tiny helper function to add breakpoints
+		function getGridSize() {
+			var proCol = jQuery(".product-carousel > ul.slides").attr("data-productcols");
+			return (window.innerWidth <= 567) ? 1 :
+				   (window.innerWidth < 992) ? 2 : proCol;
+		}
+
+		$window.on("load", function () {
+			jQuery('.product-carousel').flexslider({
+				animation: "slide",
+				controlNav: false,
+				keyboard: false,
+				itemWidth: 210,
+				itemMargin: 0,
+				minItems: getGridSize(), // use function to pull in initial value
+				maxItems: getGridSize() // use function to pull in initial value
+
+			});
+			
+			setTimeout(function () {
+				window.dispatchEvent(new Event('resize'));
+			}, 100);
+		});
+
+		// check grid size on resize event
+		$window.resize(function () {
+			var gridSize = getGridSize();
+
+			flexslider.vars.minItems = gridSize;
+			flexslider.vars.maxItems = gridSize;
+
+		});
+		jQuery(document).ready(function(){
+			setTimeout(function () {
+				window.dispatchEvent(new Event('resize'));
+			}, 1000);
+		});
+		
+	}());
+	
+</script>
+<!--END: template_scripts-->
+
+<!--START: template_styles-->
+<link rel="stylesheet" href="/assets/templates/common-core/lib/flexslider/flexslider.css" type="text/css" media="screen" />
+<link href="assets/templates/common-core/lib/contentbuilder/minimalist-blocks/content.min.css" rel="stylesheet" type="text/css" />
+<!--END: template_styles-->

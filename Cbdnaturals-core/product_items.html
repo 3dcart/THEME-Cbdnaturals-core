@@ -1,0 +1,51 @@
+<div class="revealOnScroll product-item" data-catalogid="[catalogid]" data-ajaxcart="1" data-addcart-callback="addcart_callback" data-categoryid="[cat_id]"  data-addcart-callback="addcart_callback"  data-animation="fadeInUp" data-timeout="500" >
+    <div class="img">
+        <a href="product.asp?itemid=[catalogid]">
+            <img src="[THUMBNAIL]" alt="[name]" class="img-responsive" />
+        </a>
+        <!--START: quickview-->
+        <button class="quickview" data-toggle="modal">[product_quick-view]</button>
+        <!--END: quickview-->
+    </div>
+    <div class="name">
+        <a href="product.asp?itemid=[catalogid]">[name]</a>
+    </div>
+
+    <div class="price">
+        <!--START: ITEMPRICE-->
+        <span class="regular-price">[ITEMPRICE]</span>
+        <!--END: ITEMPRICE-->
+        <!--START: SALEPRICE-->
+        <del class="regular-price">[ITEMPRICE]</del>
+        <span class="sale-price">[ITEMSALEPRICE]</span>
+        <span class="on-sale-badge">[product_sale]</span>
+        <!--END: SALEPRICE-->
+    </div>
+
+    <div class="status">
+        <!--START: product_availability-->
+        <span class="availability">[availability]</span>
+        <!--END: product_availability-->
+        <!--START: freeshippingblock-->
+        <span class="freeshipping">[freeshipping]</span>
+        <!--END: freeshippingblock-->
+    </div>
+
+    <div class="reviews">
+        <!--START: product_review-->
+        <!--START: product_review_average-->
+        <span class="reviews-stars rating-[review_average]"></span>
+        <!--END: product_review_average-->
+        <!--END: product_review-->
+    </div>
+
+	<!--START: addtocart-->
+    <div class="action">
+        <a href="add_cart.asp?quick=1&amp;item_id=[catalogid]&amp;cat_id=[cat_id]" class="add-to-cart btn btn-default btn-inverse">
+            <span class="buyitlink-text">[category_buyitlink]</span>
+            <span class="ajaxcart-loader icon-spin2 animate-spin"></span>
+            <span class="ajaxcart-added icon-ok"></span>
+        </a>
+    </div>
+	<!--END: addtocart-->
+</div>
