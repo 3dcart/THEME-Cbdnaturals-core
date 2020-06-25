@@ -1,0 +1,1259 @@
+{
+  "theme_name": "CBD Naturals Core",
+  "selected_preset": 0,
+  "field_groups": [
+    {
+      "name": "Header"
+    },
+    {
+      "name": "Text & Buttons"
+    },
+    {
+      "name": "Typography"
+    },
+    {
+      "name": "Products"
+    },
+    {
+      "name": "Footer"
+    }
+  ],
+  "theme_presets": [
+    {
+      "isCustom": 0,
+      "name": "Default",
+      "fields": [
+        {
+          "label": "Navigation BG color",
+          "name": "nav_bg_color",
+          "type": 2,
+          "value": "a89a65",
+          "group": 0
+        },
+        {
+          "label": "Navigation text color",
+          "name": "nav_text_color",
+          "type": 2,
+          "value": "ffffff",
+          "group": 0
+        },
+		{
+          "label": "Top Bar BG color",
+          "name": "top_bg_color",
+          "type": 2,
+          "value": "e2e9d9",
+          "group": 0
+        },
+		{
+          "label": "Top Bar text color",
+          "name": "top_text_color",
+          "type": 2,
+          "value": "4e4e4e",
+          "group": 0
+        },
+		{
+          "label": "Social color",
+          "name": "social_color",
+          "type": 2,
+          "value": "c2d1af",
+          "group": 0
+        },
+        {
+          "label": "Headings color",
+          "name": "headings_color",
+          "type": 2,
+          "value": "000000",
+          "group": 1
+        },
+        {
+          "label": "Body text color",
+          "name": "body_text_color",
+          "type": 2,
+          "value": "000000",
+          "group": 1
+        },
+        {
+          "label": "Primary button color",
+          "name": "btn_color",
+          "type": 2,
+          "value": "a89a65",
+          "group": 1
+        },
+        {
+          "label": "Primary button border",
+          "name": "btn_border",
+          "type": 2,
+          "value": "a89a65",
+          "group": 1
+        },
+        {
+          "label": "Primary button text color",
+          "name": "btn_text_color",
+          "type": 2,
+          "value": "FFFFFF",
+          "group": 1
+        },
+        {
+          "label": "Secondary button color",
+          "name": "btn2_color",
+          "type": 2,
+          "value": "000",
+          "group": 1
+        },
+        {
+          "label": "Secondary button border",
+          "name": "btn2_border",
+          "type": 2,
+          "value": "000000",
+          "group": 1
+        },
+        {
+          "label": "Secondary button text color",
+          "name": "btn2_text_color",
+          "type": 2,
+          "value": "fff",
+          "group": 1
+        },
+        {
+          "label": "Base font size",
+          "name": "base_font_size",
+          "type": 3,
+          "value": "14",
+          "options": [
+            {
+              "text": "14px",
+              "value": 14
+            },
+            {
+              "text": "15px",
+              "value": 15
+            },
+            {
+              "text": "16px",
+              "value": 16
+            },
+            {
+              "text": "17px",
+              "value": 17
+            },
+            {
+              "text": "18px",
+              "value": 18
+            }
+          ],
+          "group": 2
+        },
+        {
+          "label": "Heading base size",
+          "name": "heading_base_size",
+          "type": 3,
+          "value": "30",
+          "options": [
+            {
+              "text": "24px",
+              "value": 24
+            },
+            {
+              "text": "25px",
+              "value": 25
+            },
+            {
+              "text": "26px",
+              "value": 26
+            },
+            {
+              "text": "27px",
+              "value": 27
+            },
+            {
+              "text": "28px",
+              "value": 28
+            },
+            {
+              "text": "29px",
+              "value": 29
+            },
+            {
+              "text": "30px",
+              "value": 30
+            },
+            {
+              "text": "31px",
+              "value": 31
+            },
+            {
+              "text": "32px",
+              "value": 32
+            }
+          ],
+          "group": 2
+        },
+        {
+          "label": "Rating Stars color",
+          "name": "stars_color",
+          "type": 2,
+          "value": "7b7065",
+          "group": 3
+        },
+        {
+          "label": "Footer BG color",
+          "name": "footer_bg_color",
+          "type": 2,
+          "value": "e2e9d9",
+          "group": 4
+        },
+        {
+          "label": "Footer text color",
+          "name": "footer_text_color",
+          "type": 2,
+          "value": "4e4e4e",
+          "group": 4
+        },
+		{
+          "label": "Footer Bottom BG",
+          "name": "footer_bg_color2",
+          "type": 2,
+          "value": "a89a65",
+          "group": 4
+        },
+        {
+          "label": "Footer bottom text",
+          "name": "footer_text_color2",
+          "type": 2,
+          "value": "fff",
+          "group": 4
+        }
+      ]
+    },
+    {
+      "isCustom": 0,
+      "name": "Spring",
+      "fields": [
+        {
+          "label": "Navigation BG color",
+          "name": "nav_bg_color",
+          "type": 2,
+          "value": "02a010",
+          "group": 0
+        },
+        {
+          "label": "Navigation text color",
+          "name": "nav_text_color",
+          "type": 2,
+          "value": "ffffff",
+          "group": 0
+        },
+		{
+          "label": "Top Bar BG color",
+          "name": "top_bg_color",
+          "type": 2,
+          "value": "c5f982",
+          "group": 0
+        },
+		{
+          "label": "Top Bar text color",
+          "name": "top_text_color",
+          "type": 2,
+          "value": "4e4e4e",
+          "group": 0
+        },
+		{
+          "label": "Social color",
+          "name": "social_color",
+          "type": 2,
+          "value": "c5f982",
+          "group": 0
+        },
+        {
+          "label": "Headings color",
+          "name": "headings_color",
+          "type": 2,
+          "value": "000000",
+          "group": 1
+        },
+        {
+          "label": "Body text color",
+          "name": "body_text_color",
+          "type": 2,
+          "value": "000000",
+          "group": 1
+        },
+        {
+          "label": "Primary button color",
+          "name": "btn_color",
+          "type": 2,
+          "value": "02a010",
+          "group": 1
+        },
+        {
+          "label": "Primary button border",
+          "name": "btn_border",
+          "type": 2,
+          "value": "02a010",
+          "group": 1
+        },
+        {
+          "label": "Primary button text color",
+          "name": "btn_text_color",
+          "type": 2,
+          "value": "FFFFFF",
+          "group": 1
+        },
+        {
+          "label": "Secondary button color",
+          "name": "btn2_color",
+          "type": 2,
+          "value": "000",
+          "group": 1
+        },
+        {
+          "label": "Secondary button border",
+          "name": "btn2_border",
+          "type": 2,
+          "value": "000000",
+          "group": 1
+        },
+        {
+          "label": "Secondary button text color",
+          "name": "btn2_text_color",
+          "type": 2,
+          "value": "fff",
+          "group": 1
+        },
+        {
+          "label": "Base font size",
+          "name": "base_font_size",
+          "type": 3,
+          "value": "14",
+          "options": [
+            {
+              "text": "14px",
+              "value": 14
+            },
+            {
+              "text": "15px",
+              "value": 15
+            },
+            {
+              "text": "16px",
+              "value": 16
+            },
+            {
+              "text": "17px",
+              "value": 17
+            },
+            {
+              "text": "18px",
+              "value": 18
+            }
+          ],
+          "group": 2
+        },
+        {
+          "label": "Heading base size",
+          "name": "heading_base_size",
+          "type": 3,
+          "value": "30",
+          "options": [
+            {
+              "text": "24px",
+              "value": 24
+            },
+            {
+              "text": "25px",
+              "value": 25
+            },
+            {
+              "text": "26px",
+              "value": 26
+            },
+            {
+              "text": "27px",
+              "value": 27
+            },
+            {
+              "text": "28px",
+              "value": 28
+            },
+            {
+              "text": "29px",
+              "value": 29
+            },
+            {
+              "text": "30px",
+              "value": 30
+            },
+            {
+              "text": "31px",
+              "value": 31
+            },
+            {
+              "text": "32px",
+              "value": 32
+            }
+          ],
+          "group": 2
+        },
+        {
+          "label": "Rating Stars color",
+          "name": "stars_color",
+          "type": 2,
+          "value": "02a010",
+          "group": 3
+        },
+        {
+          "label": "Footer BG color",
+          "name": "footer_bg_color",
+          "type": 2,
+          "value": "c5f982",
+          "group": 4
+        },
+        {
+          "label": "Footer text color",
+          "name": "footer_text_color",
+          "type": 2,
+          "value": "4e4e4e",
+          "group": 4
+        },
+		{
+          "label": "Footer Bottom BG",
+          "name": "footer_bg_color2",
+          "type": 2,
+          "value": "02a010",
+          "group": 4
+        },
+        {
+          "label": "Footer bottom text",
+          "name": "footer_text_color2",
+          "type": 2,
+          "value": "fff",
+          "group": 4
+        }
+      ]
+    },
+    {
+      "isCustom": 0,
+      "name": "Cool blue",
+      "fields": [
+        {
+          "label": "Navigation BG color",
+          "name": "nav_bg_color",
+          "type": 2,
+          "value": "1f6ebf",
+          "group": 0
+        },
+        {
+          "label": "Navigation text color",
+          "name": "nav_text_color",
+          "type": 2,
+          "value": "ffffff",
+          "group": 0
+        },
+		{
+          "label": "Top Bar BG color",
+          "name": "top_bg_color",
+          "type": 2,
+          "value": "85d4fd",
+          "group": 0
+        },
+		{
+          "label": "Top Bar text color",
+          "name": "top_text_color",
+          "type": 2,
+          "value": "4e4e4e",
+          "group": 0
+        },
+		{
+          "label": "Social color",
+          "name": "social_color",
+          "type": 2,
+          "value": "85d4fd",
+          "group": 0
+        },
+        {
+          "label": "Headings color",
+          "name": "headings_color",
+          "type": 2,
+          "value": "000000",
+          "group": 1
+        },
+        {
+          "label": "Body text color",
+          "name": "body_text_color",
+          "type": 2,
+          "value": "000000",
+          "group": 1
+        },
+        {
+          "label": "Primary button color",
+          "name": "btn_color",
+          "type": 2,
+          "value": "1f6ebf",
+          "group": 1
+        },
+        {
+          "label": "Primary button border",
+          "name": "btn_border",
+          "type": 2,
+          "value": "1f6ebf",
+          "group": 1
+        },
+        {
+          "label": "Primary button text color",
+          "name": "btn_text_color",
+          "type": 2,
+          "value": "FFFFFF",
+          "group": 1
+        },
+        {
+          "label": "Secondary button color",
+          "name": "btn2_color",
+          "type": 2,
+          "value": "000",
+          "group": 1
+        },
+        {
+          "label": "Secondary button border",
+          "name": "btn2_border",
+          "type": 2,
+          "value": "000000",
+          "group": 1
+        },
+        {
+          "label": "Secondary button text color",
+          "name": "btn2_text_color",
+          "type": 2,
+          "value": "fff",
+          "group": 1
+        },
+        {
+          "label": "Base font size",
+          "name": "base_font_size",
+          "type": 3,
+          "value": "14",
+          "options": [
+            {
+              "text": "14px",
+              "value": 14
+            },
+            {
+              "text": "15px",
+              "value": 15
+            },
+            {
+              "text": "16px",
+              "value": 16
+            },
+            {
+              "text": "17px",
+              "value": 17
+            },
+            {
+              "text": "18px",
+              "value": 18
+            }
+          ],
+          "group": 2
+        },
+        {
+          "label": "Heading base size",
+          "name": "heading_base_size",
+          "type": 3,
+          "value": "30",
+          "options": [
+            {
+              "text": "24px",
+              "value": 24
+            },
+            {
+              "text": "25px",
+              "value": 25
+            },
+            {
+              "text": "26px",
+              "value": 26
+            },
+            {
+              "text": "27px",
+              "value": 27
+            },
+            {
+              "text": "28px",
+              "value": 28
+            },
+            {
+              "text": "29px",
+              "value": 29
+            },
+            {
+              "text": "30px",
+              "value": 30
+            },
+            {
+              "text": "31px",
+              "value": 31
+            },
+            {
+              "text": "32px",
+              "value": 32
+            }
+          ],
+          "group": 2
+        },
+        {
+          "label": "Rating Stars color",
+          "name": "stars_color",
+          "type": 2,
+          "value": "1f6ebf",
+          "group": 3
+        },
+        {
+          "label": "Footer BG color",
+          "name": "footer_bg_color",
+          "type": 2,
+          "value": "85d4fd",
+          "group": 4
+        },
+        {
+          "label": "Footer text color",
+          "name": "footer_text_color",
+          "type": 2,
+          "value": "4e4e4e",
+          "group": 4
+        },
+		{
+          "label": "Footer Bottom BG",
+          "name": "footer_bg_color2",
+          "type": 2,
+          "value": "1f6ebf",
+          "group": 4
+        },
+        {
+          "label": "Footer bottom text",
+          "name": "footer_text_color2",
+          "type": 2,
+          "value": "fff",
+          "group": 4
+        }
+      ]
+    },
+    {
+      "isCustom": 0,
+      "name": "March",
+      "fields": [
+        {
+          "label": "Navigation BG color",
+          "name": "nav_bg_color",
+          "type": 2,
+          "value": "a51fbf",
+          "group": 0
+        },
+        {
+          "label": "Navigation text color",
+          "name": "nav_text_color",
+          "type": 2,
+          "value": "ffffff",
+          "group": 0
+        },
+		{
+          "label": "Top Bar BG color",
+          "name": "top_bg_color",
+          "type": 2,
+          "value": "cb85fd",
+          "group": 0
+        },
+		{
+          "label": "Top Bar text color",
+          "name": "top_text_color",
+          "type": 2,
+          "value": "4e4e4e",
+          "group": 0
+        },
+		{
+          "label": "Social color",
+          "name": "social_color",
+          "type": 2,
+          "value": "cb85fd",
+          "group": 0
+        },
+        {
+          "label": "Headings color",
+          "name": "headings_color",
+          "type": 2,
+          "value": "000000",
+          "group": 1
+        },
+        {
+          "label": "Body text color",
+          "name": "body_text_color",
+          "type": 2,
+          "value": "000000",
+          "group": 1
+        },
+        {
+          "label": "Primary button color",
+          "name": "btn_color",
+          "type": 2,
+          "value": "a51fbf",
+          "group": 1
+        },
+        {
+          "label": "Primary button border",
+          "name": "btn_border",
+          "type": 2,
+          "value": "a51fbf",
+          "group": 1
+        },
+        {
+          "label": "Primary button text color",
+          "name": "btn_text_color",
+          "type": 2,
+          "value": "FFFFFF",
+          "group": 1
+        },
+        {
+          "label": "Secondary button color",
+          "name": "btn2_color",
+          "type": 2,
+          "value": "000",
+          "group": 1
+        },
+        {
+          "label": "Secondary button border",
+          "name": "btn2_border",
+          "type": 2,
+          "value": "000000",
+          "group": 1
+        },
+        {
+          "label": "Secondary button text color",
+          "name": "btn2_text_color",
+          "type": 2,
+          "value": "fff",
+          "group": 1
+        },
+        {
+          "label": "Base font size",
+          "name": "base_font_size",
+          "type": 3,
+          "value": "14",
+          "options": [
+            {
+              "text": "14px",
+              "value": 14
+            },
+            {
+              "text": "15px",
+              "value": 15
+            },
+            {
+              "text": "16px",
+              "value": 16
+            },
+            {
+              "text": "17px",
+              "value": 17
+            },
+            {
+              "text": "18px",
+              "value": 18
+            }
+          ],
+          "group": 2
+        },
+        {
+          "label": "Heading base size",
+          "name": "heading_base_size",
+          "type": 3,
+          "value": "30",
+          "options": [
+            {
+              "text": "24px",
+              "value": 24
+            },
+            {
+              "text": "25px",
+              "value": 25
+            },
+            {
+              "text": "26px",
+              "value": 26
+            },
+            {
+              "text": "27px",
+              "value": 27
+            },
+            {
+              "text": "28px",
+              "value": 28
+            },
+            {
+              "text": "29px",
+              "value": 29
+            },
+            {
+              "text": "30px",
+              "value": 30
+            },
+            {
+              "text": "31px",
+              "value": 31
+            },
+            {
+              "text": "32px",
+              "value": 32
+            }
+          ],
+          "group": 2
+        },
+        {
+          "label": "Rating Stars color",
+          "name": "stars_color",
+          "type": 2,
+          "value": "a51fbf",
+          "group": 3
+        },
+        {
+          "label": "Footer BG color",
+          "name": "footer_bg_color",
+          "type": 2,
+          "value": "cb85fd",
+          "group": 4
+        },
+        {
+          "label": "Footer text color",
+          "name": "footer_text_color",
+          "type": 2,
+          "value": "4e4e4e",
+          "group": 4
+        },
+		{
+          "label": "Footer Bottom BG",
+          "name": "footer_bg_color2",
+          "type": 2,
+          "value": "a51fbf",
+          "group": 4
+        },
+        {
+          "label": "Footer bottom text",
+          "name": "footer_text_color2",
+          "type": 2,
+          "value": "fff",
+          "group": 4
+        }
+      ]
+    },
+    {
+      "isCustom": 0,
+      "name": "Mist",
+      "fields": [
+        {
+          "label": "Navigation BG color",
+          "name": "nav_bg_color",
+          "type": 2,
+          "value": "1fbfa9",
+          "group": 0
+        },
+        {
+          "label": "Navigation text color",
+          "name": "nav_text_color",
+          "type": 2,
+          "value": "ffffff",
+          "group": 0
+        },
+		{
+          "label": "Top Bar BG color",
+          "name": "top_bg_color",
+          "type": 2,
+          "value": "85fdef",
+          "group": 0
+        },
+		{
+          "label": "Top Bar text color",
+          "name": "top_text_color",
+          "type": 2,
+          "value": "4e4e4e",
+          "group": 0
+        },
+		{
+          "label": "Social color",
+          "name": "social_color",
+          "type": 2,
+          "value": "85fdef",
+          "group": 0
+        },
+        {
+          "label": "Headings color",
+          "name": "headings_color",
+          "type": 2,
+          "value": "000000",
+          "group": 1
+        },
+        {
+          "label": "Body text color",
+          "name": "body_text_color",
+          "type": 2,
+          "value": "000000",
+          "group": 1
+        },
+        {
+          "label": "Primary button color",
+          "name": "btn_color",
+          "type": 2,
+          "value": "1fbfa9",
+          "group": 1
+        },
+        {
+          "label": "Primary button border",
+          "name": "btn_border",
+          "type": 2,
+          "value": "1fbfa9",
+          "group": 1
+        },
+        {
+          "label": "Primary button text color",
+          "name": "btn_text_color",
+          "type": 2,
+          "value": "FFFFFF",
+          "group": 1
+        },
+        {
+          "label": "Secondary button color",
+          "name": "btn2_color",
+          "type": 2,
+          "value": "000",
+          "group": 1
+        },
+        {
+          "label": "Secondary button border",
+          "name": "btn2_border",
+          "type": 2,
+          "value": "000000",
+          "group": 1
+        },
+        {
+          "label": "Secondary button text color",
+          "name": "btn2_text_color",
+          "type": 2,
+          "value": "fff",
+          "group": 1
+        },
+        {
+          "label": "Base font size",
+          "name": "base_font_size",
+          "type": 3,
+          "value": "14",
+          "options": [
+            {
+              "text": "14px",
+              "value": 14
+            },
+            {
+              "text": "15px",
+              "value": 15
+            },
+            {
+              "text": "16px",
+              "value": 16
+            },
+            {
+              "text": "17px",
+              "value": 17
+            },
+            {
+              "text": "18px",
+              "value": 18
+            }
+          ],
+          "group": 2
+        },
+        {
+          "label": "Heading base size",
+          "name": "heading_base_size",
+          "type": 3,
+          "value": "30",
+          "options": [
+            {
+              "text": "24px",
+              "value": 24
+            },
+            {
+              "text": "25px",
+              "value": 25
+            },
+            {
+              "text": "26px",
+              "value": 26
+            },
+            {
+              "text": "27px",
+              "value": 27
+            },
+            {
+              "text": "28px",
+              "value": 28
+            },
+            {
+              "text": "29px",
+              "value": 29
+            },
+            {
+              "text": "30px",
+              "value": 30
+            },
+            {
+              "text": "31px",
+              "value": 31
+            },
+            {
+              "text": "32px",
+              "value": 32
+            }
+          ],
+          "group": 2
+        },
+        {
+          "label": "Rating Stars color",
+          "name": "stars_color",
+          "type": 2,
+          "value": "1fbfa9",
+          "group": 3
+        },
+        {
+          "label": "Footer BG color",
+          "name": "footer_bg_color",
+          "type": 2,
+          "value": "85fdef",
+          "group": 4
+        },
+        {
+          "label": "Footer text color",
+          "name": "footer_text_color",
+          "type": 2,
+          "value": "4e4e4e",
+          "group": 4
+        },
+		{
+          "label": "Footer Bottom BG",
+          "name": "footer_bg_color2",
+          "type": 2,
+          "value": "1fbfa9",
+          "group": 4
+        },
+        {
+          "label": "Footer bottom text",
+          "name": "footer_text_color2",
+          "type": 2,
+          "value": "fff",
+          "group": 4
+        }
+      ]
+    },
+    {
+      "isCustom": 1,
+      "name": "Custom",
+      "fields": [
+        {
+          "label": "Navigation BG color",
+          "name": "nav_bg_color",
+          "type": 2,
+          "value": "a89a65",
+          "group": 0
+        },
+        {
+          "label": "Navigation text color",
+          "name": "nav_text_color",
+          "type": 2,
+          "value": "ffffff",
+          "group": 0
+        },
+		{
+          "label": "Top Bar BG color",
+          "name": "top_bg_color",
+          "type": 2,
+          "value": "e2e9d9",
+          "group": 0
+        },
+		{
+          "label": "Top Bar text color",
+          "name": "top_text_color",
+          "type": 2,
+          "value": "4e4e4e",
+          "group": 0
+        },
+		{
+          "label": "Social color",
+          "name": "social_color",
+          "type": 2,
+          "value": "c2d1af",
+          "group": 0
+        },
+        {
+          "label": "Headings color",
+          "name": "headings_color",
+          "type": 2,
+          "value": "000000",
+          "group": 1
+        },
+        {
+          "label": "Body text color",
+          "name": "body_text_color",
+          "type": 2,
+          "value": "000000",
+          "group": 1
+        },
+        {
+          "label": "Primary button color",
+          "name": "btn_color",
+          "type": 2,
+          "value": "a89a65",
+          "group": 1
+        },
+        {
+          "label": "Primary button border",
+          "name": "btn_border",
+          "type": 2,
+          "value": "a89a65",
+          "group": 1
+        },
+        {
+          "label": "Primary button text color",
+          "name": "btn_text_color",
+          "type": 2,
+          "value": "FFFFFF",
+          "group": 1
+        },
+        {
+          "label": "Secondary button color",
+          "name": "btn2_color",
+          "type": 2,
+          "value": "000",
+          "group": 1
+        },
+        {
+          "label": "Secondary button border",
+          "name": "btn2_border",
+          "type": 2,
+          "value": "000000",
+          "group": 1
+        },
+        {
+          "label": "Secondary button text color",
+          "name": "btn2_text_color",
+          "type": 2,
+          "value": "fff",
+          "group": 1
+        },
+        {
+          "label": "Base font size",
+          "name": "base_font_size",
+          "type": 3,
+          "value": "14",
+          "options": [
+            {
+              "text": "14px",
+              "value": 14
+            },
+            {
+              "text": "15px",
+              "value": 15
+            },
+            {
+              "text": "16px",
+              "value": 16
+            },
+            {
+              "text": "17px",
+              "value": 17
+            },
+            {
+              "text": "18px",
+              "value": 18
+            }
+          ],
+          "group": 2
+        },
+        {
+          "label": "Heading base size",
+          "name": "heading_base_size",
+          "type": 3,
+          "value": "30",
+          "options": [
+            {
+              "text": "24px",
+              "value": 24
+            },
+            {
+              "text": "25px",
+              "value": 25
+            },
+            {
+              "text": "26px",
+              "value": 26
+            },
+            {
+              "text": "27px",
+              "value": 27
+            },
+            {
+              "text": "28px",
+              "value": 28
+            },
+            {
+              "text": "29px",
+              "value": 29
+            },
+            {
+              "text": "30px",
+              "value": 30
+            },
+            {
+              "text": "31px",
+              "value": 31
+            },
+            {
+              "text": "32px",
+              "value": 32
+            }
+          ],
+          "group": 2
+        },
+        {
+          "label": "Rating Stars color",
+          "name": "stars_color",
+          "type": 2,
+          "value": "7b7065",
+          "group": 3
+        },
+        {
+          "label": "Footer BG color",
+          "name": "footer_bg_color",
+          "type": 2,
+          "value": "e2e9d9",
+          "group": 4
+        },
+        {
+          "label": "Footer text color",
+          "name": "footer_text_color",
+          "type": 2,
+          "value": "4e4e4e",
+          "group": 4
+        },
+		{
+          "label": "Footer Bottom BG",
+          "name": "footer_bg_color2",
+          "type": 2,
+          "value": "a89a65",
+          "group": 4
+        },
+        {
+          "label": "Footer bottom text",
+          "name": "footer_text_color2",
+          "type": 2,
+          "value": "fff",
+          "group": 4
+        }
+      ]
+    }
+  ]
+}
