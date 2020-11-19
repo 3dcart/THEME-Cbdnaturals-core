@@ -34,6 +34,9 @@ input:focus::-moz-placeholder {
 .product-items.productList .product-item .status, .product-items.productList .product-item .action{
     text-align: left;
 }
+.qcart-youmayaslolike .revealOnScroll{
+	opacity:1;
+}
 @media (max-width: 991px){
 .product-items.productList .product-item .img {
     padding-right: 0;
