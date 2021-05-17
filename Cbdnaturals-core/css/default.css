@@ -1,6 +1,21 @@
 /*
 ** Bootstrap over-rides
 */
+#skip a
+{
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+#skip a:focus
+{
+position:static;
+width:auto;
+height:auto;
+}
 .mailist-box .form-control::placeholder,
 .search-form .form-control::placeholder {
     color: #000;
@@ -146,13 +161,13 @@ h1 {
 }
 .btn-default.btn-inverse,
 .btn-primary {
-    color: #fff;
+    color: #000;
     background-color: #a89a65;
     border-color: #a89a65;
 }
 .btn-default.btn-inverse:hover,
 .btn-primary:hover {
-	color: #fff;
+	color: #000;
     background-color: #a89a65;
     border-color: #a89a65;
     opacity: 0.8;
@@ -179,7 +194,7 @@ section.navbar-wrapper.affix {
     padding: 10px 20px;
 }
 .navbar-inverse .navbar-nav > li > a {
-    color: #fff;
+    color: #000;
     font-weight: 600;
     letter-spacing: 0.025em;
     text-transform: uppercase;
@@ -218,12 +233,12 @@ section.navbar-wrapper.affix {
     margin-left: 5px;
 }
 .product-item .on-sale-badge {
-    background-color: #d04b64;
+    background-color: #96273B;
     height: 48px;
     line-height: 48px;
     border-radius: 100%;
     width: 48px;
-    font-size: 10px;
+    font-size: 11px;
 }
 @media (max-width: 1023px) {
   .navbar-header {
@@ -464,7 +479,7 @@ ul.extrapages li a {
 }
 .copyright {
     padding: 20px 0;
-    color: #fff;
+    color: #000;
     font-size: 12px;
     background: #a89a65;
 }
@@ -472,7 +487,7 @@ ul.extrapages li a {
     margin: 0;
 }
 .copyright a {
-    color: #fff;
+    color: #000;
 }
 
 .mailist-box {
@@ -500,7 +515,7 @@ ul.extrapages li a {
 }
 .mailinglist-submit {
     background-color: #a89a65 !important;
-    color: #fff !important;
+    color: #000 !important;
     border: none !important;
     float: right;
     width: 78px;
@@ -1010,7 +1025,7 @@ span.freeshipping {
 .home-page-content .products-section .product-items .product-item {
     margin-bottom: 35px;
 }
-.home-page-content .products-section h2 {
+.home-page-content .products-section h2,.home-page-content .products-section h1 {
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 600;
@@ -1020,12 +1035,12 @@ span.freeshipping {
     margin: 0 0 45px;
     padding: 0 20px;
 }
-.home-page-content .products-section h2 span {
+.home-page-content .products-section h2 span,.home-page-content .products-section h1 span {
     background-color: #fff;
     padding: 0 15px;
 	color: #000;
 }
-.home-page-content .products-section h2:before {
+.home-page-content .products-section h2:before,.home-page-content .products-section h1:before {
     content: "";
     background-color: #c2d1af;
     height: 1px;

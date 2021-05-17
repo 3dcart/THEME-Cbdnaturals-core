@@ -1,6 +1,21 @@
 /*
 ** Bootstrap over-rides
 */
+#skip a
+{
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+#skip a:focus
+{
+position:static;
+width:auto;
+height:auto;
+}
 .mailist-box .form-control::placeholder,
 .search-form .form-control::placeholder {
     color: #000;
@@ -217,12 +232,12 @@ section.navbar-wrapper.affix {
     margin-left: 5px;
 }
 .product-item .on-sale-badge {
-    background-color: #d04b64;
+    background-color:#96273B;
     height: 48px;
     line-height: 48px;
     border-radius: 100%;
     width: 48px;
-    font-size: 10px;
+    font-size: 11px;
 }
 @media (max-width: 1023px) {
   .navbar-header {
@@ -1009,7 +1024,7 @@ span.freeshipping {
 .home-page-content .products-section .product-items .product-item {
     margin-bottom: 35px;
 }
-.home-page-content .products-section h2 {
+.home-page-content .products-section h2,.home-page-content .products-section h1 {
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 600;
@@ -1019,12 +1034,12 @@ span.freeshipping {
     margin: 0 0 45px;
     padding: 0 20px;
 }
-.home-page-content .products-section h2 span {
+.home-page-content .products-section h2 span,.home-page-content .products-section h1 span {
     background-color: #fff;
     padding: 0 15px;
 	color: #[headings_color];
 }
-.home-page-content .products-section h2:before {
+.home-page-content .products-section h2:before,.home-page-content .products-section h1:before {
     content: "";
     background-color: #c2d1af;
     height: 1px;
